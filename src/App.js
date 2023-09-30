@@ -109,13 +109,10 @@ const About = props => {
             <div className="desc full">
               <h4 className="subtitle">Mon nom est ugo</h4>
               <p>
-                Je suis un jeune développeur, étudiant a Sophia Ynov Campus .
+                Je suis un jeune développeur, étudiant a Sophia Ynov Campus actuellement a la recherche d'une alternance.
               </p>
               <p>
-                I really enjoy solving problems as well as making things pretty and easy to use. I
-                can't stop learning new things; the more, the better. I also love photography, a hobby
-                I'm taking along since the good old film cameras. Oh, and rice with milk; I have a
-                passion for rice with milk!
+                J'apprécie énormément résoudre des problèmes tout en créant des designs esthétiques et conviviaux. Mon insatiable soif d'apprentissage me pousse constamment à acquérir de nouvelles compétences, car plus j'en apprends, mieux c'est.
               </p>
             </div>
             <div className="title">
@@ -123,29 +120,20 @@ const About = props => {
               <p className="separator" />
             </div>
             <div className="desc">
-              <h4 className="subtitle">I'm a programmer.</h4>
+              <h4 className="subtitle">Je suis programmeur.</h4>
               <p>
-                For  test userthe front-end I usually work with Javascript, either standalone or including
-                popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass,
-                CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc.
+                Je suis un développeur passionné avec une solide expérience dans des langages tels que Java, C, C++, C#, Python, ainsi qu'en gestion de bases de données SQL. Mon amour pour la programmation m'incite constamment à explorer de nouvelles opportunités et à relever des défis techniques passionnants. J'adore particulièrement tout ce qui concerne l'algorithmie et l'analyse de données, ce qui me pousse à développer des solutions innovantes pour résoudre des problèmes complexes.
               </p>
-              <p>
-                For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of
-                course, whenever the project requires PHP, I do PHP as well (Wordpress, Laravel, etc).
-              </p>
+
             </div>
             <div className="desc">
-              <h4 className="subtitle">Also a designer.</h4>
+              <h4 className="subtitle">Aussi un développeur web</h4>
               <p>
-                I feel comfortable working with many Adobe products. Photoshop, Illustrator, InDesign,
-                Lightroom or Xd are some kind of industry standards and I love working with them. I'm
-                not limited to them, though: Gimp, Inkscape or Figma are also very valid applications
-                that I've been working with.
+                En ce qui concerne le développement front-end, je travaille généralement avec JavaScript,
+                que ce soit de manière autonome ou en intégrant des frameworks populaires tels que ReactJS et VueJS.
+
               </p>
-              <p>
-                User interfaces, brochures, books, branding... You name it! As I mentioned, creating
-                pretty things is particularly important for me.
-              </p>
+
             </div>
           </article>
         </div>
@@ -230,16 +218,7 @@ const Projects = props => {
 
 
 
-            <Project
-                title="Random Quoting Machine."
-                img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/QuotingMachine.jpg'}
-                tech="js vue css"
-                link="https://codepen.io/yagoestevez/full/bxgEyd/"
-                repo="https://github.com/yagoestevez/random-quoting-machine"
-            >
-              <small>Built using VueJS, Axios and CSS + Bootstrap.</small>
-              <p>A random quoting app which retrieves pictures and quotes from two different APIs.</p>
-            </Project>
+
 
 
 
@@ -249,8 +228,8 @@ const Projects = props => {
                 title="Stage Maison de L'intelligence Artificielle."
                 img={'https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/Tribute.jpg'}
                 tech="js sass"
-                link="https://www.youtube.com/?gl=FR&hl=fr"
-                repo="https://github.com/yagoestevez/tribute-to-aaron-swartz"
+                link="https://stage-pied.vercel.app/"
+                repo="https://stage-pied.vercel.app/"
 
             >
               <p>

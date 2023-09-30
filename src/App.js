@@ -116,7 +116,7 @@ const About = props => {
               </p>
             </div>
             <div className="title">
-              <h3>Ce que je fait ?</h3>
+              <h3>Ce que je fait  ?</h3>
               <p className="separator" />
             </div>
             <div className="desc">
